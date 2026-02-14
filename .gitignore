@@ -1,0 +1,33 @@
+HELP.md
+/spring-7-spring-boot-4-rest-jpa-security/target/
+/spring-7-spring-boot-4-rest-jpa-security/.mvn/wrapper/maven-wrapper.jar
+!**/spring-7-spring-boot-4-rest-jpa-security/src/main/**/target/
+!**/spring-7-spring-boot-4-rest-jpa-security/src/test/**/target/
+
+### STS ###
+/spring-7-spring-boot-4-rest-jpa-security/.apt_generated
+/spring-7-spring-boot-4-rest-jpa-security/.classpath
+.factorypath
+/spring-7-spring-boot-4-rest-jpa-security/.project
+/spring-7-spring-boot-4-rest-jpa-security/.settings
+/spring-7-spring-boot-4-rest-jpa-security/.springBeans
+/spring-7-spring-boot-4-rest-jpa-security/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring-7-spring-boot-4-rest-jpa-security/.idea
+/spring-7-spring-boot-4-rest-jpa-security/*.iws
+/spring-7-spring-boot-4-rest-jpa-security/*.iml
+/spring-7-spring-boot-4-rest-jpa-security/*.ipr
+
+### NetBeans ###
+/spring-7-spring-boot-4-rest-jpa-security/nbproject/private/
+/spring-7-spring-boot-4-rest-jpa-security/nbbuild/
+/spring-7-spring-boot-4-rest-jpa-security/dist/
+/spring-7-spring-boot-4-rest-jpa-security/nbdist/
+/spring-7-spring-boot-4-rest-jpa-security/.nb-gradle/
+/spring-7-spring-boot-4-rest-jpa-security/build/
+!**/spring-7-spring-boot-4-rest-jpa-security/src/main/**/build/
+!**/spring-7-spring-boot-4-rest-jpa-security/src/test/**/build/
+
+### VS Code ###
+.vscode/spring-7-spring-boot-4-rest-jpa-security/
