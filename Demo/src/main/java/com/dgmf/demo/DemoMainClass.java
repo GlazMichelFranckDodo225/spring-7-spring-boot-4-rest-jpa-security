@@ -1,4 +1,4 @@
-package com.dgmf;
+package com.dgmf.demo;
 
 public class DemoMainClass {
     static void main() {
