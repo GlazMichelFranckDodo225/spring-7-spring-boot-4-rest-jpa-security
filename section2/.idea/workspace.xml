@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82b5272c-c00c-444f-9c5d-3fade0ba4237" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/dgmf/ex1/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/dgmf/ex1/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/dgmf/ex1/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/dgmf/ex1/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/dgmf/ex1/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/dgmf/ex1/Example1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Example1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
