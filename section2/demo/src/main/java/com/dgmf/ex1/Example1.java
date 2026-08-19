@@ -1,7 +1,7 @@
 package com.dgmf.ex1;
 
-import com.dgmf.ex1.beans.Vehicle;
-import com.dgmf.ex1.config.ProjectConfig;
+import com.dgmf.ex2.beans.Vehicle;
+import com.dgmf.ex2.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Example1 {
