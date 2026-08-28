@@ -1,12 +1,10 @@
 package com.dgmf.ex2.config;
 
 import com.dgmf.ex2.beans.Vehicle;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Description;
-import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.*;
 
 @Configuration
+@Import({AnotherProjectConfig.class})
 public class ProjectConfig {
 
     @Bean(name = "audiVehicle")
