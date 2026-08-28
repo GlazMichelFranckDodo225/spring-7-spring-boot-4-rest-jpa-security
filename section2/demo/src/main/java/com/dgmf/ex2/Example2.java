@@ -21,5 +21,15 @@ public class Example2 {
             var mercedes = (Vehicle) context.getBean("myFavouriteVehicle");
             System.out.println("Vehicle name from Spring Context is : " + mercedes.getName());
 
+            // NoUniqueBeanDefinitionException: No qualifying bean of
+            // type 'com.dgmf.ex2.beans.Vehicle' available: expected single matching bean
+            // but found 4: audiVehicle,hondaVehicle,ferrariVehicle,mercedesVehicle
+            // var vhcle = context.getBean(Vehicle.class);
+            // System.out.println("Vehicle name from Spring Context is : " + vhcle.getName());
+
+            var vhcle = context.getBean(Vehicle.class);
+            System.out.println("Vehicle name from Spring Context is : " + vhcle.getName());
+
+
         }
     }
