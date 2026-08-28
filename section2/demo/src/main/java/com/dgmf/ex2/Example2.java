@@ -1,12 +1,13 @@
 package com.dgmf.ex2;
 
 import com.dgmf.ex2.beans.Vehicle;
+import com.dgmf.ex2.config.AnotherProjectConfig;
 import com.dgmf.ex2.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Example2 {
     static void main() {
-            var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+            var context = new AnnotationConfigApplicationContext(ProjectConfig.class, AnotherProjectConfig.class);
 
             // NoSuchBeanDefinitionException: No bean named 'vehicle1' available
             // var veh = context.getBean("vehicle1", Vehicle.class);
@@ -29,6 +30,9 @@ public class Example2 {
 
             var vhcle = context.getBean(Vehicle.class);
             System.out.println("Vehicle name from Spring Context is : " + vhcle.getName());
+
+            var helloWorld = context.getBean(String.class);
+            System.out.println("String Value from Spring Context is : " + helloWorld);
 
 
         }
